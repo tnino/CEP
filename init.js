@@ -1,3 +1,4 @@
+ 
 <script> 
 $(document).ready(function(){
     $("#btn_firstName").click(function(){
@@ -10,11 +11,12 @@ $(document).ready(function(){
     $("#btn_homeOffice").click(function(){
         $("#homeOffice").slideDown("slow");
     });
-    $("#btn_position").click(function(){
-        $("#position").slideDown("slow");
+    $("#btn_jobTitle").click(function(){
+        $("#jobTitle").slideDown("slow");
     });
     $("#btn_tellMeMore").click(function(){
         $("#tellMeMore").slideDown("slow");
     });
 });
 </script>
+
